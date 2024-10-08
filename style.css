@@ -1,0 +1,73 @@
+/* Default Light Mode */
+body {
+   overflow-x: hidden;
+    box-sizing: border-box;
+      font-family: "Poppins", system-ui;
+    background-color: black;
+    color: #ffffff;
+}
+.header-home{
+    margin: 0;
+    background-image: url(images/Lovepik_com-400293104-bright-and-cool-sports-car.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    color: brown;
+}
+.header-home div{
+    top: 200px;
+    left: 290px;
+    font-weight: 400;
+}
+.a{
+    width: 70px;
+    height: 50px;
+  
+}
+.navbar {
+    background-color: #343a40;
+}
+
+@media (min-width : 400px) and (max-width : 480px) {
+    .cards{
+        flex-direction: column !important;
+    }
+    .card{
+        width: 100% !important;
+    }
+    .card-img-top{
+        width: 100% !important;
+    }
+    .header-home{
+        width: 100%;
+        background-size:cover ;
+    }
+    .home-info h1{
+       
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .home-info{
+      left: 0 !important;
+       background-position: left !important;
+    }
+}
+@media (min-width : 481px) and (max-width : 768px) {
+     .cards{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+     .card{
+        width: 45% !important;
+    }
+     .card-img-top{
+        width: 100% !important;
+    }
+      .header-home {
+        height: 600px;
+    }
+    .header-home div {
+        top: 150px;
+        left: 150px;
+    }
+}
